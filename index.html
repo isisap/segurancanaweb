@@ -1,127 +1,62 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Segurança na Internet | Direito Digital</title>
-    <style>
-        body {
-            font-family: 'Georgia', serif;
-            background-color: #f0f0f0;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #2C3E50;
-            color: #fff;
-            text-align: center;
-            padding: 40px 0;
-            font-size: 36px;
-        }
-
-        header h1 {
-            font-size: 48px;
-        }
-
-        .content {
-            padding: 30px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .section {
-            background-color: #fff;
-            margin-bottom: 20px;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        h2 {
-            color: #2C3E50;
-            font-size: 32px;
-            margin-bottom: 20px;
-        }
-
-        footer {
-            background-color: #2C3E50;
-            color: #fff;
-            text-align: center;
-            padding: 15px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-
-        .legal-info {
-            font-size: 18px;
-            margin-top: 15px;
-        }
-
-        form {
-            margin-top: 20px;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            background-color: #f9f9f9;
-        }
-
-        input[type="text"], input[type="submit"] {
-            padding: 10px;
-            margin: 10px 0;
-            width: 100%;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
-
-        input[type="submit"] {
-            background-color: #2C3E50;
-            color: white;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #34495E;
-        }
-
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>Segurança na Internet | Direito Digital</h1>
-    <p>Proteja seus dados pessoais e entenda seus direitos na era digital.</p>
-</header>
-
-<div class="content">
-    <section class="section">
-        <h2>O que é Segurança na Internet?</h2>
-        <p>A segurança na internet envolve a proteção de dados e informações contra acessos não autorizados, perdas ou danos. Garantir a segurança é essencial para proteger informações confidenciais, especialmente quando lidamos com transações financeiras ou dados pessoais.</p>
-    </section>
+</section>
 
     <section class="section">
         <h2>Lei Geral de Proteção de Dados (LGPD)</h2>
-        <p>A LGPD (Lei Geral de Proteção de Dados) foi criada para proteger os dados pessoais dos cidadãos brasileiros e regulamentar o uso dessas informações pelas empresas. Ela determina que as empresas devem ter um consentimento explícito para coletar dados, além de garantir a transparência no processo.</p>
+        <p>A LGPD (Lei Geral de Proteção de Dados) é uma legislação brasileira que visa proteger os dados pessoais e garantir que as empresas tratem esses dados com o devido respeito e segurança. Ela regulamenta como as empresas devem coletar, processar e armazenar as informações pessoais de usuários e clientes.</p>
+    </section>
+
+    <section class="section">
+        <h2>Serviços Jurídicos de Proteção Digital</h2>
+        <div class="services">
+            <div class="service-card">
+                <h3 class="service-title">Consultoria Jurídica Digital</h3>
+                <p>Orientação jurídica sobre proteção de dados, privacidade e conformidade com as leis digitais, como a LGPD.</p>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">Treinamentos sobre Segurança Digital</h3>
+                <p>Oferecemos treinamentos especializados para empresas e indivíduos sobre como se proteger contra ataques cibernéticos e garantir a segurança das informações.</p>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">Assessoria em Casos de Vazamento de Dados</h3>
+                <p>Atuação em processos relacionados ao vazamento de dados e como lidar juridicamente com essa situação, garantindo os direitos dos indivíduos afetados.</p>
+            </div>
+        </div>
     </section>
 
     <section class="section">
         <h2>Chat de Perguntas Jurídicas</h2>
-        <p>Se você tem dúvidas sobre segurança na internet ou questões jurídicas relacionadas à proteção de dados, pergunte abaixo:</p>
-        <!-- Simples formulário de chat -->
-        <form>
-            <label for="question">Sua pergunta:</label><br>
-            <input type="text" id="question" name="question" placeholder="Digite sua pergunta aqui..." required><br><br>
-            <input type="submit" value="Enviar Pergunta">
-        </form>
+        <p>Tem dúvidas sobre proteção de dados, privacidade online ou questões jurídicas? Pergunte abaixo:</p>
+        <div class="chat-container">
+            <form>
+                <label for="question">Sua pergunta:</label><br>
+                <input type="text" id="question" name="question" placeholder="Digite sua pergunta..." required><br><br>
+                <input type="submit" value="Enviar Pergunta">
+            </form>
+        </div>
     </section>
 </div>
 
 <footer>
     <p>&copy; 2025 Segurança na Internet | Todos os direitos reservados</p>
-    <p class="legal-info">Este site é uma iniciativa para promover a educação sobre o Direito Digital e proteção de dados pessoais.</p>
+    <p class="legal-info">Este site visa promover a educação sobre o Direito Digital e proteger os dados dos cidadãos.</p>
 </footer>
+
+<!-- Chatbot Interativo (usando Dialogflow ou outra plataforma) -->
+<div id="chatbot">
+    <h3>Chat Jurídico</h3>
+    <div class="chatbot-message">
+        <p>Olá! Como posso ajudar você hoje? Fale sobre segurança digital ou a LGPD!</p>
+    </div>
+</div>
+
+<!-- Botão para abrir o Chat -->
+<script>
+    // Exemplo simples de mostrar o chatbot
+    window.onload = function() {
+        const chatbot = document.getElementById("chatbot");
+        chatbot.style.display = "block";
+    };
+</script>
 
 </body>
 </html>
